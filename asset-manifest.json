@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ann_kiende_resume/static/css/main.f855e6bc.css",
-    "main.js": "/ann_kiende_resume/static/js/main.649792e3.js",
+    "main.css": "/ann_kiende_resume/static/css/main.7ceb73f6.css",
+    "main.js": "/ann_kiende_resume/static/js/main.53ca8894.js",
     "static/js/453.6c377af4.chunk.js": "/ann_kiende_resume/static/js/453.6c377af4.chunk.js",
-    "static/media/logo.svg": "/ann_kiende_resume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/bright-yellow-hero-img.jpg": "/ann_kiende_resume/static/media/bright-yellow-hero-img.daee81141428426606a6.jpg",
     "index.html": "/ann_kiende_resume/index.html",
-    "main.f855e6bc.css.map": "/ann_kiende_resume/static/css/main.f855e6bc.css.map",
-    "main.649792e3.js.map": "/ann_kiende_resume/static/js/main.649792e3.js.map",
+    "main.7ceb73f6.css.map": "/ann_kiende_resume/static/css/main.7ceb73f6.css.map",
+    "main.53ca8894.js.map": "/ann_kiende_resume/static/js/main.53ca8894.js.map",
     "453.6c377af4.chunk.js.map": "/ann_kiende_resume/static/js/453.6c377af4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.649792e3.js"
+    "static/css/main.7ceb73f6.css",
+    "static/js/main.53ca8894.js"
   ]
 }
