@@ -1,0 +1,91 @@
+/* Home component styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+.home-hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/bright-yellow-hero-img.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-explore {
+  text-align: right;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 150px;
+  margin-left: auto;
+  opacity: 0.7;
+  font-size: smaller;
+}
+
+#godash {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+#godash svg {
+  transform: rotate(90deg);
+  height: 50px;
+  width: 55px;
+}
+
+#txt-explore {
+  display: inline-block; /* needed for transform */
+  margin: 0 auto;
+  color: white;
+  transition: transform 0.3s ease-out, text-shadow 0.3s ease-out,
+    color 0.3s ease-out;
+}
+
+#txt-explore:hover {
+  cursor: pointer;
+  color: bisque;
+  font-weight: bold;
+  transform: scale(1.1); /* visual expansion only */
+  text-shadow: 0 0 10px bisque, 0 0 20px bisque; /* glow */
+  position: relative; /* ensures hover overlaps */
+  z-index: 1; /* prevents being hidden by neighbors */
+}
+
+.home-name {
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 0.9;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.f-name {
+  margin-right: 20%;
+  /* letter-spacing: 0.2em; */
+  font-stretch: expanded;
+}
+
+.s-name {
+  margin-left: 20%;
+  /* letter-spacing: 0.2em; */
+  font-stretch: expanded;
+}
+
+.home-footer {
+  text-align: center;
+  padding-bottom: 10px;
+  opacity: 0.7;
+  font-size: smaller;
+}
