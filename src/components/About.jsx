@@ -32,8 +32,10 @@ const About = () => {
             I’m Ann Kiende — a <strong>frontend developer</strong> based in
             Nairobi, passionate about turning ideas into clean, intuitive
             digital experiences. I specialize in{' '}
-            <strong>React, JavaScript, and modern UI design,</strong> with a
-            strong focus on{' '}
+            <strong className='highlight'>
+              React, JavaScript, and modern UI design,
+            </strong>{' '}
+            with a strong focus on{' '}
             <strong>clarity, simplicity, and user-centered interfaces.</strong>{' '}
             I enjoy crafting{' '}
             <strong>
