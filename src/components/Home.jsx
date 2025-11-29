@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { GoDash } from 'react-icons/go';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
           <p id='godash'>
             <GoDash />
           </p>
-          <p id='txt-explore'>EXPLORE</p>
+          <Link to='/about' id='txt-explore'>
+            EXPLORE
+          </Link>
         </div>
         <div className='home-name'>
           <div className='f-name'>Ann</div>
