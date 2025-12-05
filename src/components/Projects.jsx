@@ -1,5 +1,6 @@
 import React from 'react';
-import './About.css';
+import './Projects.css';
+import '../App.css';
 import { Link, Links } from 'react-router-dom';
 import bgVideo from '../videos/background-video.mp4';
 
@@ -15,7 +16,7 @@ const Projects = () => {
         <div className='links'>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
-          <Link to='/projects' class='a-active'>
+          <Link to='/projects' className='a-active'>
             Projects
           </Link>
           <Link to='/skills'>Skills</Link>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import '../App.css';
 import { HiOutlineMail } from 'react-icons/hi';
 import { IoLocationSharp, IoLogoLinkedin } from 'react-icons/io5';
 import { BsGithub, BsFileEarmarkPdfFill } from 'react-icons/bs';
@@ -15,7 +16,7 @@ const About = () => {
         <div className='logo'>Ann Kiende</div>
         <div className='links'>
           <Link to='/'>Home</Link>
-          <Link to='/about' class='a-active'>
+          <Link to='/about' className='a-active'>
             About
           </Link>
           <Link to='/projects'>Projects</Link>

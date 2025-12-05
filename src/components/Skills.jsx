@@ -1,6 +1,7 @@
 import React from 'react';
-import './About.css';
-import { Link, Links } from 'react-router-dom';
+import './Skills.css';
+import '../App.css';
+import { Link } from 'react-router-dom';
 
 const Skills = () => {
   return (
@@ -11,29 +12,35 @@ const Skills = () => {
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/projects'>Projects</Link>
-          <Link to='/skills' class='a-active'>
+          <Link to='/skills' className='a-active'>
             Skills
           </Link>
         </div>
       </div>
 
-      <div className='main skills'>
-        <ul class='technologies'>
-          <p>Technologies</p>
-          <li id='list-item'>React</li>
-          <li id='list-item'>JavaScript (ES6)</li>
-          <li id='list-item'>HTML / CSS</li>
-          <li id='list-item'>Vite</li>
-          <li id='list-item'>Git & GitHub</li>
-        </ul>
+      <div className='skills-main'>
+        {/* CARD 1 */}
+        <div className='card'>
+          <p className='title'>Technologies</p>
+          <ul>
+            <li>React</li>
+            <li>JavaScript (ES6)</li>
+            <li>HTML / CSS</li>
+            <li>Vite</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
 
-        <ul class='soft-skills'>
-          <p>Soft Skills</p>
-          <li id='list-item'>Attention to detail</li>
-          <li id='list-item'>Clear communication</li>
-          <li id='list-item'>Fast learning</li>
-          <li id='list-item'>UI sense / good design eye</li>
-        </ul>
+        {/* CARD 2 */}
+        <div className='card'>
+          <p className='title'>Soft Skills</p>
+          <ul>
+            <li>Attention to detail</li>
+            <li>Clear communication</li>
+            <li>Fast learning</li>
+            <li>UI sense / good design eye</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
