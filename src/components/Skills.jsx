@@ -18,6 +18,8 @@ const Skills = () => {
         </div>
       </div>
 
+      <h1 className='skills-header'>My Skills</h1>
+
       <div className='skills-main'>
         {/* CARD 1 */}
         <div className='card'>
@@ -39,6 +41,17 @@ const Skills = () => {
             <li>Clear communication</li>
             <li>Fast learning</li>
             <li>UI sense / good design eye</li>
+          </ul>
+        </div>
+
+        {/* CARD 3 */}
+        <div className='card'>
+          <p className='title'>Currently Learning</p>
+          <ul>
+            <li>Responsive layouts</li>
+            <li>React hooks</li>
+            <li>Animations</li>
+            <li>UI patterns</li>
           </ul>
         </div>
       </div>
